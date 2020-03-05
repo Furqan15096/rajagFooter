@@ -1,6 +1,21 @@
+.main_container{
+    text-rendering: optimizeLegibility;
+    padding: 70px;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: Arapey,serif;
+    color: #777e7e;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+
+
 .main_container .list_1{
     list-style: none;
     line-height: 1.5;
+   
 }
 .fbImg{
     height: 20px;
@@ -9,9 +24,11 @@
 }
 .text_div{
     padding-left: 10px;
+    cursor: pointer;
 }
 .pic_div{
     line-height: 2;
+    
 }
 .add{
     width: fit-content;

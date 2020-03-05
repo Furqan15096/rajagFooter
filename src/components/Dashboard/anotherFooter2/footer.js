@@ -4,7 +4,7 @@ import "./footer.css"
 import fb from '../anotherFooter2/faceBook.png';
 import pinterest from '../anotherFooter2/pinterest.png';
 import insta from '../anotherFooter2/instagram.png'
-
+ 
 
 export default class Footer extends React.Component {
     render() {
@@ -14,11 +14,21 @@ export default class Footer extends React.Component {
                 <Row xs="1" sm="3" md="3" lg="3" xl="3">
                     <div className="column_1">
                         <Col >
-                            <li className="list_1">Return Policy</li>
-                            <li className="list_1">Search our Store</li>
-                            <li className="list_1">Blog</li>
-                            <li className="list_1">Contact us</li>
-                            <li className="list_1">About us</li>
+                            <li className="list_1">
+                               <span className="text_div">Return Policy</span> 
+                                </li>
+                            <li className="list_1">
+                            <span className="text_div">Search our Store</span> 
+                            </li>
+                            <li className="list_1">
+                            <span className="text_div">Blog</span> 
+                            </li>
+                            <li className="list_1">
+                            <span className="text_div">Contact us</span> 
+                            </li>
+                            <li className="list_1">
+                            <span className="text_div">About us</span> 
+                            </li>
 
                         </Col>
 
@@ -26,15 +36,18 @@ export default class Footer extends React.Component {
                     <Col>
                         <div className="column_2">
                             <div className="pic_div" >
-                                <img className="fbImg" src={fb} alt=""/>
+                            <span className="text_div">
+                                 <img className="fbImg" src={fb} alt=""/></span>
                                 <span class="text_div">FaceBook</span>
                             </div>
                             <div className="pic_div">
-                                <img className="fbImg" src={pinterest} alt=""/>
+                            <span className="text_div">
+                                 <img className="fbImg" src={pinterest} alt=""/></span>
                                 <span class="text_div">Pinterest</span>
                             </div>
                             <div className="pic_div">
-                                <img className="fbImg" src={insta} alt=""/>
+                            <span className="text_div">
+                                <img className="fbImg" src={insta} alt=""/></span>
                                 <span class="text_div">Instagram</span>
                             </div>
                         </div>
@@ -42,9 +55,12 @@ export default class Footer extends React.Component {
                     <div className="column_3">
                     <Col>
                     <div className="main_div_column_3">
+                         
                     <div className="add">
+                    <span class="text_div">
                     © 2020, Brooklyn Theme 
                      Powered by Shopify
+                     </span>
                     </div>
                     <div className="imgs">
                     <img className="fbImg" src={pinterest} alt=""/>
