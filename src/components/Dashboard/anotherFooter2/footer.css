@@ -7,6 +7,7 @@
     color: #777e7e;
     font-weight: 400;
     font-style: normal;
+    padding-right: 0% !important;
     
 }
 .text_div:hover{
@@ -58,7 +59,6 @@
 
 {
     .main_container {
-    max-width: 100%px;
     text-align: center !important;
     /* line-height: 10; */
 
@@ -85,9 +85,7 @@
 .add{
     max-width: 176px;
 }
-.main_div_column_3{
-    width: 176px;
-}
+
 .imgs{
     text-align: center;
 }
@@ -95,9 +93,13 @@
 
 @media (min-width: 880px) and (max-width:1190px){
     .add{
-        max-width: 176px !important;
+        max-width: 65% !important;
     }
     .main_div_column_3{
         width: 176px !important;
     }
+}
+@media (min-width: 576px) and (max-width:735px)
+{
+
 }
